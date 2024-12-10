@@ -1,0 +1,56 @@
+/* Beginner
+responsive لسه  متعلمتش ال */
+ *{ 
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+  }
+.container{
+    width: 90%;
+    background-color: rgb(84, 156, 184);
+    margin: auto;
+} 
+ .perants{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(72, 130, 159);
+    margin:  auto;
+    position: relative; 
+}
+ .img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px solid white;
+    margin-left: 40px;
+    position: absolute;
+    top: 20px;
+}
+.img img{
+    width: 100%;
+}
+ .header{
+text-align: none;
+position: absolute;
+top:40px ;
+left: 170px;
+font-size: 20px;
+letter-spacing: 2px;
+color: rgb(251, 251, 251);
+} 
+.header h1 i {
+   color:  rgb(23, 175, 231);
+}
+.item{
+    position: absolute;
+   top: 170px;
+   left: 60px;
+   font-size: 33px;
+letter-spacing: 1px;
+word-spacing: 2px;
+color: rgb(255, 255, 255);
+}
+.item h2 i {
+    color: rgb(23, 175, 231);
+}

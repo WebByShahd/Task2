@@ -1,0 +1,23 @@
+#include <bits/stdc++.h>
+using namespace std;
+string shahd (string z)
+{
+    int count=0,pos=z.size()-1;
+    while (pos >= 0 && z[pos] == '0') {
+        count++;
+        pos--;
+    }
+
+    if (count > 0) {
+        z.erase(pos + 1, count);
+    }
+    reverse(z.begin(), z.end());
+    return z;
+}
+int main() {
+    string x;
+    cin>>x;
+    cout<<shahd(x);
+
+    return 0;
+}
